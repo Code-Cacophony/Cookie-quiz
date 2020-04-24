@@ -13,15 +13,25 @@
 
   <div class="container">
     <h1>Which Cookie Are You?</h1>
+
+    <img src="img/cookies.jpg">
+
+    <br>
+    <br>
+
     <p>Ever wondered what kind of cookie you are? Worry no more! This quiz will determine exactly which cookie you are
       using the most scientifically advanced process.
     </p>
 
+    <br>
+    <br>
+
     <form id="user-input">
 
-      <div class="show-select">
-        <label for="">Select you favorite tv show:</label>
-        <select id="" name="">
+      <div class="tv-select">
+        <label for="tv">Select you favorite tv show:</label>
+        <select id="tv" name="tv">
+          <option value="0">Choose...</option>
           <option value="1">Annoying Orange</option>
           <option value="2">Ren & Stimpy</option>
           <option value="3">Property Brothers</option>
@@ -30,82 +40,110 @@
         </select>
       </div>
 
-      <div class="">
-        <label for=""></label>
-        <select id="" name="">
-          <option value="1"></option>
-          <option value="2"></option>
-          <option value="3"></option>
-          <option value="4"></option>
-          <option value="5"></option>
+      <br>
+      <br>
+
+      <div class="vacation">
+        <label for="vacation">You get to go on a vacation to one of these spots. Which do you pick?</label>
+        <select id="vacation" name="vacation">
+          <option value="0">Choose...</option>
+          <option value="6">Honduras</option>
+          <option value="7">Somalia</option>
+          <option value="8">Prague in the 1970's</option>
+          <option value="9">Paris in the 1940's</option>
+          <option value="10">North Korea</option>
         </select>
       </div>
 
-      <div class="">
-        <label for=""></label>
-        <select id="" name="">
-          <option value="1"></option>
-          <option value="2"></option>
-          <option value="3"></option>
-          <option value="4"></option>
-          <option value="5"></option>
+      <br>
+      <br>
+
+      <div class="robbery">
+        <label for="robbed">Your house is being robbed. What do you do?</label>
+        <select id="robbed" name="robbed">
+          <option value="0">Choose...</option>
+          <option value="11">Shoot the intruders</option>
+          <option value="12">Run away</option>
+          <option value="13">Hide the call the police</option>
+          <option value="14">Do a Fortnite dance</option>
+          <option value="15">Dab</option>
         </select>
       </div>
 
-      <div class="">
-        <label for=""></label>
-        <select id="" name="">
-          <option value="1"></option>
-          <option value="2"></option>
-          <option value="3"></option>
-          <option value="4"></option>
-          <option value="5"></option>
+      <br>
+      <br>
+
+      <div class="books">
+        <label for="book">You're stuck in prison with one book you have to finish in order for the wardens to release
+          you. Which book will you read?</label>
+        <select id="book" name="book">
+          <option value="0">Choose...</option>
+          <option value="16">Arabian Nights</option>
+          <option value="17">Mein Kampf</option>
+          <option value="18">All the Harry Potter books</option>
+          <option value="19">The Practical Guide to Employment Law, second Edition by Mark R. Filipp</option>
+          <option value="20">The Bible</option>
         </select>
       </div>
 
-      <div class="">
-        <label for=""></label>
-        <select id="" name="">
-          <option value="1"></option>
-          <option value="2"></option>
-          <option value="3"></option>
-          <option value="4"></option>
-          <option value="5"></option>
-        </select>
-      </div>
+      <br>
+      <br>
 
-      <div class="">
-        <label for=""></label>
-        <select id="" name="">
-          <option value="1"></option>
-          <option value="2"></option>
-          <option value="3"></option>
-          <option value="4"></option>
-          <option value="5"></option>
-        </select>
-      </div>
       <button type="submit" id="btn">Find Your Cookie</button>
     </form>
 
     <div id="choc">
-
+      <h2>You are a chocolate chip cookie.</h2>
+      <img src="img/choc-chip.jpg">
+      <ul>
+        <li>You are brave.</li>
+        <li>You probably lift.</li>
+        <li>Call of Duty is probably your favorite video game.</li>
+      </ul>
     </div>
 
     <div id="birthday">
-
+      <h2>You are a birthday cake cookie.</h2>
+      <img src="img/birthday-cake.jpg">
+      <ul>
+        <li>Your favorite actor is Willem Dafoe.</li>
+        <li>You like theater but you don't like watching it.</li>
+        <li>You've definately punched somebody before.</li>
+      </ul>
     </div>
 
     <div id="mnm">
-
+      <h2>You are an M&M cookie.</h2>
+      <img src="img/rainbow.jpg">
+      <ul>
+        <li>You are a huge fan of Law & Order.</li>
+        <li>You've watched somnebody die.</li>
+        <li>You never take shit from anyone.</li>
+      </ul>
     </div>
 
     <div id="loft">
-
+      <h2>You are a lofthouse cookie.</h2>
+      <img src="img/lofthouse.jpg">
+      <ul>
+        <li>You bathe twice a week.</li>
+        <li>You watch a lot of sports.</li>
+        <li>You hate Ethiopia.</li>
+      </ul>
     </div>
 
     <div id="ron">
+      <h2>You are Ron Pearlman.</h2>
+      <img src="img/pearlman.jpg">
+      <ul>
+        <li>Wait this isn't a cookie, this is Ron Pearlman!</li>
+        <li>Ron, what are you doing here?</li>
+        <li>I don't know why this is happening. Where is the other cookie option?</li>
+      </ul>
+    </div>
 
-
+    <div id="error">
+      <p>Please fill out all forms.</p>
     </div>
   </div>
 
